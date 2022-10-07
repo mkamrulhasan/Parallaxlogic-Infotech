@@ -1,0 +1,18 @@
+.layout {
+  background-image: url(../../images/color-splash.jpg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: calc(100% - 90px);
+  opacity: 0.9;
+  margin-top: 0px;
+  display: flex;
+  flex-direction:column;
+}
+
+.homeDotLayout {
+  width: 100%;
+  height: 100%;
+  background-image: url(../../images/target-dot.png);
+  flex: 1;
+}

@@ -1,0 +1,109 @@
+.cardOuter {
+  width: 59%;
+  margin-left: 1%;
+}
+
+.cardCover {
+  background: #ffffff;
+  box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  border-radius: 10px;
+  box-sizing: border-box;
+  padding: 40px 20px;
+  color: #999;
+}
+
+.cardCover h1 {
+  font-size: 25px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.projectTable {
+  margin: 1em auto;
+  width: 90%;
+  background: #ffffff;
+  color: #999;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.projectTable th {
+  margin: 0.5em 1em;
+  color: #00baed;
+  text-align: left;
+  display: table-cell;
+  padding: 5px !important;
+  font-size: 14px;
+  font-weight: 500;
+}
+.projectTable td {
+  margin: 0.5em 1em;
+  text-align: left;
+  display: table-cell;
+  padding: 5px !important;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.technology{
+  display: flex !important;
+  flex-wrap: wrap;
+}
+
+.projectTable td span {
+  margin: 0 5px;
+  background-color: #00baed;
+  border-radius: 5px;
+  font-size: 12px;
+  padding: 3px 5px;
+  color: #ffffff;
+  margin: 2px;
+}
+
+.projectTable td:first-child {
+  padding-top: 0.5em;
+  padding-left: 0;
+}
+.projectTable td:last-child {
+  padding-bottom: 0.5em;
+  padding-right: 0;
+}
+
+.projectTable th:first-child {
+  padding-left: 0;
+}
+.projectTable th:last-child {
+  padding-right: 0;
+}
+
+@media (max-width: 1080px) {
+  .cardOuter {
+    width: 64%;
+    margin-left: 1%;
+  }
+}
+
+@media (max-width: 768px) {
+  .cardOuter {
+    width: 100%;
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 578px) {
+  .cardCover {
+  padding: 30px 5px;
+}
+  .cardCover h1 {
+    font-size: 20px;
+  }
+
+  .projectTable th {
+  margin: 0.5em 0.5em;
+  font-size: 13px;
+}
+.projectTable td {
+  margin: 0.5em 0.5em;
+  font-size: 13px;
+}
+}

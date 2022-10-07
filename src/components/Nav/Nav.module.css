@@ -1,0 +1,36 @@
+.nav {
+  padding: 20px;
+  display: flex;
+}
+
+.nav img {
+  width: 200px;
+}
+
+.nav a {
+  margin-left: auto;
+  text-decoration: none;
+  font-size: 15px;
+  text-transform: uppercase;
+  padding: 8px 20px;
+  margin-right: 15px;
+  font-weight: 500;
+  color: #ffffff;
+  margin-top: auto;
+  margin-bottom: auto;
+  line-height: 2;
+  background-color: #00baed;
+  border-radius: 5px;
+}
+
+@media (max-width: 578px) {
+  .nav img {
+    width: 130px;
+  }
+  .nav a {
+    font-size: 13px;
+    padding: 5px 10px;
+    margin-right: 5px;
+    line-height: 2.5;
+  }
+}
