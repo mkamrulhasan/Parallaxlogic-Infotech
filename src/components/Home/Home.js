@@ -14,7 +14,12 @@ const Home = () => {
         className={Styles.form}
         onSubmit={(event) => developerCtx.serarchHandler(event, inputElement)}
       >
-        <input type="text" className={Styles.searchInput} ref={inputElement} />
+        <input
+          type="text"
+          placeholder="Search developer..."
+          className={Styles.searchInput}
+          ref={inputElement}
+        />
         <button type="submit">Search Developer</button>
       </form>
       {developerCtx.serarchResult.length > 0 && (
